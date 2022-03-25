@@ -1,0 +1,2 @@
+Constructed a virtual environment on PythonAnywhere, to further elaborate on the course.
+ link: http://tuto.pythonanywhere.com/
