@@ -1,0 +1,119 @@
+/* In this assignment you will develop a Cascading Style Sheet (CSS) to control, the look, feel, and layout of some provide HTML content.
+
+You should already have your system set up on PythonAnywhere and have completed the HTML assignment before starting this assignment. The HTML assignment sets up your application to serve static files and we will need that set up to do this assignment.
+
+In this assignment, you will transform from this:
+-----------------------------------------------
+Resources
+There are several sources of information so you can do the assignment:
+
+Lectures and materials on Cascading Style Sheets from www.dj4e.com
+Pre-Requisites
+Please install the Web Developer Toolkit for your browser from Chris Pedrick and know how to use it to disable CSS styles.
+
+Tasks
+Here are the tasks for this assignment. These tasks can be done by editing HTML and CSS files in your `site` folder on PythonAnywhere.
+
+Make a folder django_projects/mysite/site/css.
+
+Take this this file and copy/paste the contents into django_projects/mysite/site/css/index.htm. You will not change this file.
+
+Take this file and copy/paste the contents into django_projects/mysite/site/css/blocks.css in the same folder as the above file.
+
+Edit the blocks.css and add the CSS rules so the HTML file looks like the above image when you view
+
+https://your-account.pythonanywhere.com/site/css/index.htm
+file in your browser. (Example that *looks* correct but is not a solution at all)
+The four boxes have five pixel borders with different colors and five pixels of margin and padding. It is probably simplest to use fixed positioning to get the boxes to be "sticky" to the corners of the screen even when you resize. Make the boxes width be 25% so the width changes as you resize your browser.
+
+Center the link at the top of the page. Use your developer console / inspect element feature of your browser to visit https://www.brainyquote.com/ and figure out the background color, font, and text color they are using in the top navigation bar and replicate that exactly for the link to BrainyQuote in your index.htm.
+
+Your CSS must pass the validator at:
+
+https://jigsaw.w3.org/css-validator
+What To Hand In
+For this assignment you will hand in:
+
+Image (JPG or PNG) of your index.htm with the styling applied
+Image (JPG or PNG) of the source code of your blocks.css file
+Image (JPG or PNG) of your blocks.css passing the W3 CSS validator
+Image (JPG or PNG) of your browser viewing www.brainyquote.com with all styles turned off
+Image (JPG or PNG) of your browser at www.brainyquote.com inspecting the navigation element to find its background color
+
+
+
+
+/* This is a partial blocks.css, you need to add more rules
+   to this file to complete the assignment.  Do not add any CSS
+   styling to the original index.htm / start.htm */
+
+   body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Here is one of many  CSS rules you will need... */
+
+div {
+  width: 25%;
+  padding: 5px;
+  margin: 5px;
+  position:relative;
+
+}
+
+#one {
+        border-style: solid;
+        border-color: blue;
+        border-width: 5px;
+        float: right;
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+}
+
+#two {
+        border-style: solid;
+        border-color: green;
+        border-width: 5px;
+        float: right;
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+
+
+}
+
+#three {
+        border-style: solid;
+        border-color: orange;
+        border-width: 5px;
+        float: left;
+        position: fixed;
+        top: 1rem;
+
+
+}
+
+#four {
+        border-style: solid;
+        border-color: yellow;
+        border-width: 5px;
+        float: left;
+        position: fixed;
+        bottom: 1rem;
+
+}
+
+
+a {
+    color: white;
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    margin-top: 1rem;
+    margin-left: -50px;
+    width: 100px;
+    text-decoration: none;
+    background-color: blue;
+}
+
