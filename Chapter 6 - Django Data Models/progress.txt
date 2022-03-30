@@ -1,0 +1,9 @@
+In this class, I learned about setting up django on the pythonanywhere environment, and user the bash console to insert installation,
+SQL and python shell commands.
+In the assignment, I also created some polls and questions, tied to the https://tuto.pythonanywhere.com/admin link.
+There were a series of instructions in this django project tutorial https://docs.djangoproject.com/en/3.2/intro/tutorial02/
+
+Since this was a virtual machine bash console lesson, I am unable to post the source codes here on GitHub.
+The dj4e lesson is available at https://www.dj4e.com/lessons/dj4e_modules, check it out if you are interested.
+
+My domain on pythoneverywhere is https://tuto.pythonanywhere.com/site.

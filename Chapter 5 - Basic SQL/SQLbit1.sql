@@ -29,6 +29,3 @@ UPDATE Users SET name="Gabigolmes";
 DROP TABLE Users
 
 .quit
-
-
-
